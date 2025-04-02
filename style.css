@@ -7,3 +7,45 @@ img {
   height: 15%;
   width: 15%;
 }
+
+#moon-section {
+  background-color: #010100;
+  color: #f3f3f3;
+  padding: 80px 0;
+}
+
+#moon-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#moon-images {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 450px;
+}
+
+#moon-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  gap: 40px;
+}
+
+.moons {
+  width: 200px;
+}
+
+#phobos {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+#deimos {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
