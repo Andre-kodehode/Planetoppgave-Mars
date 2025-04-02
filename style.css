@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+img {
+  height: 15%;
+  width: 15%;
+}
+
 html {
   scroll-behavior: smooth;
 }
