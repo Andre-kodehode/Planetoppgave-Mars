@@ -3,24 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/new-mars" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon-mars.png" type="image/x-icon" />
     <title>Om Mars</title>
   </head>
-  <body>
+  <body id="top">
     <header>
       <nav>
         <ul>
-          <li><a href="">Top</a></li>
+          <li><a href="#top">Top</a></li>
           <li><a href="">About Mars</a></li>
           <li><a href="">The moons of Mars</a></li>
           <li><a href="">Fun facts</a></li>
         </ul>
       </nav>
-      <div><h1>Velkommen om Mars</h1></div>
     </header>
     <main>
-      <section></section>
+      <section class="hero-section">
+        <div class="new-mars"><h1>Velkommen om Mars</h1></div>
+          <div class="hero-columns">
+            <h2 class="hero-column">Mars</h2>
+            <p class="hero-column">Mars is the foruth planet from the Sun.</p>
+          </div>
+        </div>
+      </section>
       <section id="about-mars">
         <h2 class="mars-title">About Mars</h2>
         <div class="about-mars-columns">
@@ -37,7 +50,11 @@
             </p>
           </div>
           <div class="about-mars-column">
-            <img src="./images/about-mars-image.jpg" alt="" />
+            <img
+              class="about-mars-image"
+              src="./images/about-mars-image.jpg"
+              alt=""
+            />
           </div>
           <div class="about-mars-column">
             <p>

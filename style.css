@@ -3,7 +3,105 @@
   box-sizing: border-box;
 }
 
-img {
-  height: 500px;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: #f0f0f0;
+}
+
+.about-mars-image {
+  height: 100%;
+  width: 100%;
+}
+
+p,
+a {
+  font-family: "Martian Mono", monospace;
+}
+/*  Hero styling */
+
+.hero-section {
+  background-image: url("./images/mars-background-image.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
 }
+.new-mars {
+  padding: 30px 0;
+  font-family: "New Mars", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.hero-columns {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(23, 23, 27, 0.4);
+  margin-right: 70%;
+}
+
+.hero-column {
+  margin: 20px;
+}
+
+/* Hero styling end of line */
+
+/* Header styling */
+
+header {
+  padding-top: 10px;
+  background-color: #17171b;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  margin: 0 125px;
+}
+
+nav > ul {
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li > a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #f06602;
+}
+
+/* Header styling end of line*/
+
+/* About Mars section */
+
+.mars-title {
+  padding-top: 20px;
+  font-family: "New Mars", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-mars-columns {
+  display: flex;
+  margin: 0 30px;
+}
+
+.about-mars-column {
+  margin: 0 30px;
+  text-align: center;
+  align-self: center;
+  display: flex;
+}
+
+/*  About Mars section end of line */
