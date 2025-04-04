@@ -8,6 +8,154 @@ img {
   width: 15%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #f0f0f0;
+  background-color: rgb(0, 0, 0);
+}
+
+.about-mars-image {
+  height: 100%;
+  width: 100%;
+}
+
+p,
+a {
+  font-family: "Martian Mono", monospace;
+}
+/*  Hero styling */
+
+.hero-section {
+  background-image: url("./images/mars-background-image.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.new-mars {
+  padding: 30px 0;
+  font-family: "New Mars", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.hero-columns {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(23, 23, 27, 0.4);
+  margin-right: 70%;
+}
+
+.hero-column {
+  margin: 20px;
+}
+
+/* Hero styling end of line */
+
+/* Header styling */
+
+header {
+  padding-top: 10px;
+  background-color: #17171b;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  margin: 0 125px;
+}
+
+nav > ul {
+  font-size: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li > a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #f06602;
+}
+
+/* Header styling end of line*/
+
+/* About Mars section */
+
+#about-mars {
+  padding-bottom: 40px;
+}
+
+.mars-title {
+  padding-top: 20px;
+  font-family: "New Mars", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-mars-columns {
+  display: flex;
+  margin: 0 30px;
+}
+
+.about-mars-column {
+  margin: 0 30px;
+  text-align: center;
+  align-self: center;
+  display: flex;
+}
+
+/*  About Mars section end of line */
+
+#moon-section {
+  background-color: #010100;
+  color: #f3f3f3;
+  padding: 80px 0;
+}
+
+#moon-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#moon-images {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 450px;
+}
+
+#moon-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  gap: 40px;
+}
+
+.moons {
+  width: 200px;
+}
+
+#phobos {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+#deimos {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
 
 /* --------------
 fun fackts
@@ -46,4 +194,3 @@ ol img{
   border-radius: 8px;
   margin-top: 10px;
   box-shadow: 0px 4px 8px rgb(0, 0, 0);
-}
