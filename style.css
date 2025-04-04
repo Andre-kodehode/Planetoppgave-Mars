@@ -156,3 +156,41 @@ li > a:hover {
   align-self: flex-end;
   justify-self: flex-end;
 }
+
+/* --------------
+fun fackts
+---------- */
+
+#fun-section{
+  background-image: url(./images/stor-mars.jpg);
+  background-color: hsla(0, 0%, 1%, 0.422);
+  background-blend-mode: multiply;
+  background-position: top;
+  color: hsl(0, 0%, 99%);
+}
+
+.fun-tittle{
+  margin: 5em;
+  padding-top:10em ;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+ol{
+  max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fun-list{
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+ol img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0);
