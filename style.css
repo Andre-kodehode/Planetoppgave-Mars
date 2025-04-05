@@ -241,7 +241,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
-  max-width: 200px;
+  max-width: 100px;
 }
 
 
